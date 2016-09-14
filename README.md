@@ -7,6 +7,8 @@ by xero harrison (http://xero.nu)
 ```
 
 ![](https://raw.githubusercontent.com/xero/blaquemagick.vim/master/preview.png)
+* note this is urxvt running the terminal version of vim 7.4 in a tmux pane with a few plugins. for more info checkout my full  [.vimrc](https://github.com/xero/dotfiles/blob/master/vim/.vimrc) in my [dotfiles](http://git.io/.files) repo.
+
 [full environment preview](http://pub.iotek.org/p/egXuExh.png)
 
 # install
