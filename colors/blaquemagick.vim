@@ -17,12 +17,16 @@ hi Comment      term=NONE cterm=NONE ctermfg=238  ctermbg=NONE
 hi Constant     term=NONE cterm=NONE ctermfg=101  ctermbg=NONE
 hi Cursor       term=NONE cterm=NONE ctermfg=242  ctermbg=NONE
 hi CursorLine   term=NONE cterm=NONE ctermfg=NONE ctermbg=234
-hi DiffAdd      term=NONE cterm=NONE ctermfg=103  ctermbg=NONE
-hi DiffChange   term=NONE cterm=NONE ctermfg=NONE ctermbg=16
-hi DiffDelete   term=NONE cterm=NONE ctermfg=251  ctermbg=16
-hi DiffText     term=NONE cterm=NONE ctermfg=251  ctermbg=101
+hi DiffAdd      term=NONE cterm=NONE ctermfg=107  ctermbg=NONE
+hi DiffChange   term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE
+hi DiffDelete   term=NONE cterm=NONE ctermfg=52  ctermbg=NONE
+hi DiffText     term=NONE cterm=NONE ctermfg=178  ctermbg=NONE
 hi Directory    term=NONE cterm=NONE ctermfg=101  ctermbg=16
-hi Error        term=NONE cterm=NONE ctermfg=238  ctermbg=66
+if &diff
+    hi Error        term=NONE cterm=NONE ctermfg=238  ctermbg=22
+else
+    hi Error        term=NONE cterm=NONE ctermfg=238  ctermbg=66
+endif
 hi ErrorMsg     term=NONE cterm=NONE ctermfg=66   ctermbg=16
 hi FoldColumn   term=NONE cterm=NONE ctermfg=238  ctermbg=NONE
 hi Folded       term=NONE cterm=NONE ctermfg=238  ctermbg=NONE
