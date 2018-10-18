@@ -30,7 +30,7 @@ hi Function     term=NONE cterm=NONE ctermfg=251  ctermbg=NONE
 hi Identifier   term=NONE cterm=NONE ctermfg=66   ctermbg=NONE
 hi IncSearch    term=NONE cterm=NONE ctermfg=247  ctermbg=247
 hi NonText      term=NONE cterm=NONE ctermfg=101  ctermbg=NONE
-hi Normal       term=NONE cterm=NONE ctermfg=249  ctermbg=NONE
+hi Normal       term=NONE cterm=NONE ctermfg=249  ctermbg=233
 hi PreProc      term=NONE cterm=NONE ctermfg=66   ctermbg=NONE
 hi Search       term=NONE cterm=NONE ctermfg=251  ctermbg=247
 hi Special      term=NONE cterm=NONE ctermfg=66   ctermbg=NONE
